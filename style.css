@@ -145,12 +145,15 @@ h3 {
     font-size: 1.2em;
     font-weight: normal;
     color: #767e9e;
+    text-align: justify;
     white-space: pre-wrap;
     width: 220px;
+    max-height: 63px;
     margin-top: 8px;
     margin-bottom: 0;
     word-spacing: -0.03em;
     line-height: 1.8em;
+    overflow: hidden;
 }
 .portfolio {
     background-color: #2d303a;
@@ -255,8 +258,9 @@ h3 {
     color: #666d89;
     margin: 0;
     padding-top: 3px;
-    letter-spacing: em;
-    word-spacing: em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .people-p {
     font-size: 1.2em;
